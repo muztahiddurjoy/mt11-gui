@@ -1,5 +1,3 @@
-import React from 'react'
-
 const DebugIndexPage = () => {
   return (
     <div>DebugIndexPage</div>

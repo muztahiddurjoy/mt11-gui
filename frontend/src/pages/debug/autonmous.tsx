@@ -1,8 +1,16 @@
-import React from 'react'
+import Navigation from '@/components/common/Navigation'
 
 const DebugAutonomous = () => {
   return (
-    <div>DebugAutonomous</div>
+    <div className="min-h-screen bg-background">
+      <Navigation />
+      <div className="container mx-auto px-4 py-6">
+        <h1 className="text-3xl font-bold text-foreground mb-4">Debug - Autonomous</h1>
+        <div className="bg-card rounded-lg p-6 border border-border">
+          <p className="text-muted-foreground">Debug tools and autonomous system diagnostics will be displayed here.</p>
+        </div>
+      </div>
+    </div>
   )
 }
 
