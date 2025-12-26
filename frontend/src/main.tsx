@@ -4,8 +4,6 @@ import './index.css'
 import App from './App.tsx'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Autonomous from './pages/run/autonmous.tsx'
-import RunIndexPage from './pages/run/index.tsx'
-import DebugIndexPage from './pages/debug/index.tsx'
 import Vision from './pages/run/vision.tsx'
 import Science from './pages/run/science.tsx'
 
